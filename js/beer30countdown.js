@@ -100,7 +100,7 @@ function GetCount(){
                 if(days != 0){out += days +" day"+((days!=1)?"s":"")+", ";}
                 if(days != 0 || hours != 0){out += hours +" hour"+((hours!=1)?"s":"")+", ";}
                 if(days != 0 || hours != 0 || mins != 0){out += mins +" minute"+((mins!=1)?"s":"")+", ";}
-                out += secs +" seconds";
+                out += secs +" secs";
                 document.getElementById('countbox').innerHTML=out;
                 if (thisDay == beer30dayOfWeek){
 				    document.getElementById('beer_pic').innerHTML=beerasciiart;

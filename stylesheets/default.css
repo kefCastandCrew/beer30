@@ -1,18 +1,19 @@
 body {
   padding-left: 1em;
   font-family: Helvetica, "Helvetica Neue", Arial;
-  color: black;
-  background-color: #FFFFFF
-} 
+  color: #FFFFFF;
+  background-color: #000000;
+}
 
 .large { 
-  color: #000000; 
+  color: #FFFFFF; 
   font-family:arial; 
-  font-size: 40pt; 
+  font-size: 38pt; 
 }
 
 #wrapper {
-	width: 5000px;
+  width: 100%;
+  color: #FFFFFF;
 }
 
 div { float: left}
